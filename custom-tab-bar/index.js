@@ -20,22 +20,16 @@ Component({
         text: "分类"
       },
       {
-        pagePath: "/pages/photos/home/index",
+        pagePath: "/pages/tag/index",
         iconPath: "/images/icon/photo.svg",
         selectedIconPath: "/images/icon/photo-hover.svg",
-        text: "光影"
+        text: "标签"
       },
 			{
 				pagePath: "/pages/about/home/index",
 				iconPath: "/images/icon/about.svg",
 				selectedIconPath: "/images/icon/about-hover.svg",
 				text: "关于"
-			},
-			{
-				pagePath: "/pages/admin/home/index",
-				iconPath: "/images/icon/admin.svg",
-				selectedIconPath: "/images/icon/admin-hover.svg",
-				text: "管理"
 			}
 		],
     //适配IphoneX的屏幕底部横线

@@ -60,17 +60,13 @@
         "text": "分类"
       },
       {
-        "pagePath": "pages/photos/home/index",
-        "text": "光影"
+        "pagePath": "pages/tag/index",
+        "text": "标签"
       },
 			{
 				"pagePath": "pages/about/home/index",
 				"text": "关于"
-			},
-			{
-				"pagePath": "pages/admin/home/index",
-				"text": "管理"
-			}
+			 }
 		]
 	},
 	"networkTimeout": {
