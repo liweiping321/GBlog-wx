@@ -11,11 +11,11 @@
   </view>
   <!-- 宫格 -->
   <view class="cu-list grid col-4 no-border shadow-warp">
-    <view class="cu-item" bindtap="toTagPage">
+    <!-- <view class="cu-item" bindtap="toTagPage">
       <view class="cuIcon-tag text-yellow">
       </view>
       <text>标签</text>
-    </view>
+    </view> -->
     <view class="cu-item" bindtap="toArchivesPage">
       <view class="cuIcon-read text-cyan">
       </view>

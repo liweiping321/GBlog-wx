@@ -39,11 +39,11 @@ Page({
   /**
    * 跳转到标签页面
    */
-  toTagPage() {
-    wx.navigateTo({
-      url:"/pages/tag/index"
-    })
-  },
+  // toTagPage() {
+  //   wx.switchTab({
+  //     url:"/pages/tag/index"
+  //   })
+  // },
   /**
    * 跳转到归档页面
    */

@@ -524,8 +524,8 @@ Page({
   },
 
   toTagPage(event) {
-    wx.navigateTo({
-      url: '../tag/index?id=' + event.currentTarget.dataset.id
+    wx.switchTab({
+      url: '/pages/tag/index?id=' + event.currentTarget.dataset.id
     });
   }
 });

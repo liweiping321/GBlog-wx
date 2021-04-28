@@ -23,7 +23,7 @@ Component({
         pagePath: "/pages/tag/index",
         iconPath: "/images/icon/photo.svg",
         selectedIconPath: "/images/icon/photo-hover.svg",
-        text: "标签"
+        text: "面试题"
       },
 			{
 				pagePath: "/pages/about/home/index",

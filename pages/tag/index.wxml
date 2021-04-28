@@ -1,12 +1,12 @@
 <wxs src="../../utils/tools.wxs" module="tools" />
-<view class='cu-custom'>
+<!-- <view class='cu-custom'>
   <view class="cu-bar fixed bg-shadeTop" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
     <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
       <text class='cuIcon-back'></text> 返回
     </navigator>
     <view class='content' style='top:{{StatusBar}}px;'>标签</view>
   </view>
-</view>
+</view> -->
 
 <!-- 顶图 -->
 <view class="UCenter-bg" wx:if="{{tagList.length!=0}}" style="background-image: url({{tagList[tagCur].thumbnail?tagList[tagCur].thumbnail:tools.getRandomImage(RandomImage)}});">
